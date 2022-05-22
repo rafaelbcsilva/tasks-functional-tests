@@ -26,9 +26,9 @@ public class TaskTest {
 		WebDriver driver = acessarAplicacao();
 
 		try {
-			// Clicar no botão Add Todo
+			// Clicar no botï¿½o Add Todo
 			driver.findElement(By.id("addTodo")).click();
-			// Escrever a descrição
+			// Escrever a descriï¿½ï¿½o
 			driver.findElement(By.id("task")).sendKeys("Selenium Tests");
 			// Escrever a data
 			driver.findElement(By.id("dueDate")).sendKeys("25/12/2022");
@@ -50,7 +50,7 @@ public class TaskTest {
 		WebDriver driver = acessarAplicacao();
 
 		try {
-			// Clicar no botão Add Todo
+			// Clicar no botï¿½o Add Todo
 			driver.findElement(By.id("addTodo")).click();
 			// Escrever a data
 			driver.findElement(By.id("dueDate")).sendKeys("25/12/2022");
@@ -67,14 +67,14 @@ public class TaskTest {
 	}
 
 	@Test
-	public void NãodeveSalvarTarefaSemData() {
+	public void naodeveSalvarTarefaSemData() {
 
 		WebDriver driver = acessarAplicacao();
 
 		try {
-			// Clicar no botão Add Todo
+			// Clicar no botï¿½o Add Todo
 			driver.findElement(By.id("addTodo")).click();
-			// Escrever a descrição
+			// Escrever a descriï¿½ï¿½o
 			driver.findElement(By.id("task")).sendKeys("Selenium Tests");
 			// Clicar em Salvar
 			driver.findElement(By.id("saveButton")).click();
@@ -93,9 +93,9 @@ public class TaskTest {
 		WebDriver driver = acessarAplicacao();
 
 		try {
-			// Clicar no botão Add Todo
+			// Clicar no botï¿½o Add Todo
 			driver.findElement(By.id("addTodo")).click();
-			// Escrever a descrição
+			// Escrever a descriï¿½ï¿½o
 			driver.findElement(By.id("task")).sendKeys("Selenium Tests");
 			// Escrever a data
 			driver.findElement(By.id("dueDate")).sendKeys("25/12/2020");
