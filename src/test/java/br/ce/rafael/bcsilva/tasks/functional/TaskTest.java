@@ -32,9 +32,9 @@ public class TaskTest {
 		WebDriver driver = acessarAplicacao();
 
 		try {
-			// Clicar no bot�o Add Todo
+			// Clicar no botao Add Todo
 			driver.findElement(By.id("addTodo")).click();
-			// Escrever a descri��o
+			// Escrever a descricao
 			driver.findElement(By.id("task")).sendKeys("Selenium Tests");
 			// Escrever a data
 			driver.findElement(By.id("dueDate")).sendKeys("25/12/2022");
@@ -56,7 +56,7 @@ public class TaskTest {
 		WebDriver driver = acessarAplicacao();
 
 		try {
-			// Clicar no bot�o Add Todo
+			// Clicar no botao Add Todo
 			driver.findElement(By.id("addTodo")).click();
 			// Escrever a data
 			driver.findElement(By.id("dueDate")).sendKeys("25/12/2022");
@@ -78,9 +78,9 @@ public class TaskTest {
 		WebDriver driver = acessarAplicacao();
 
 		try {
-			// Clicar no bot�o Add Todo
+			// Clicar no botao Add Todo
 			driver.findElement(By.id("addTodo")).click();
-			// Escrever a descri��o
+			// Escrever a descricao
 			driver.findElement(By.id("task")).sendKeys("Selenium Tests");
 			// Clicar em Salvar
 			driver.findElement(By.id("saveButton")).click();
@@ -99,9 +99,9 @@ public class TaskTest {
 		WebDriver driver = acessarAplicacao();
 
 		try {
-			// Clicar no bot�o Add Todo
+			// Clicar no botao Add Todo
 			driver.findElement(By.id("addTodo")).click();
-			// Escrever a descri��o
+			// Escrever a descricao
 			driver.findElement(By.id("task")).sendKeys("Selenium Tests");
 			// Escrever a data
 			driver.findElement(By.id("dueDate")).sendKeys("25/12/2020");
